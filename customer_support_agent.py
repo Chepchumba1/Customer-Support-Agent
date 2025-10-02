@@ -26,7 +26,7 @@ class State(TypedDict):
     response: str
 
 import os
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "your_API_key"
 
 # Check if the key is loaded successfully
 if os.environ["GROQ_API_KEY"]:
